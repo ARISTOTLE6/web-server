@@ -3,7 +3,7 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 const app = express()
-
+const port = process.env.PORT||4000
 
 const partialPath = path.join(__dirname ,'../templates/partials')
 const thePublicPath= path.join(__dirname ,'../public')
@@ -98,7 +98,7 @@ app.get('',(req ,res)=>{
                 res.send('My 404 page')
             })
 
-app.listen(3000,(req , res)=>{
-    console.log('server running on port 3000')
+app.listen(port,(req , res)=>{
+    console.log('server running on port 4000')
 })
 
