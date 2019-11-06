@@ -1,0 +1,41 @@
+
+
+body{
+    color: #333333;
+     font-family: serif;
+}
+.main-content {
+    /* margin-top: -70px;
+    display: flex;
+    flex-direction:row; */
+    background: blueviolet;
+   
+    font-size: 30px;
+    
+} 
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+    
+    margin:34px;
+    margin-top: 0px;
+    
+}
+
+  header img {
+   
+    margin-left:140px;
+
+} 
+
+
+a:hover{
+    color: red;
+}
+
+
+
+
+
+
